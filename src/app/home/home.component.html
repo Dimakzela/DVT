@@ -1,0 +1,5 @@
+<div class="container">
+  <div class="artist-card-container">
+    <app-artist-card *ngFor="let artist of artists" (clickEmitter)="navigate($event)" [artist]="artist"></app-artist-card>
+  </div>
+</div>

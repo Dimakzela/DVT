@@ -1,0 +1,7 @@
+<div class="header">
+  <div class="search-bar">
+    <input placeholder="search artist" [formControl]="searchKeyword">
+  </div>
+  <button [disabled]="searchKeyword?.value?.length < 3" (click)="publishKeyword(searchKeyword.value)">Search</button>
+</div>
+

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 98.0.4758.102 (Linux x86_64)" package="unit" timestamp="2022-02-19T14:07:50" id="0" hostname="cw09l943606" tests="8" errors="0" failures="0" time="0.069">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/98.0.4758.102 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should have as title 'musicdb-app-angular'" time="0.023" classname="unit.AppComponent"/>
+  <testcase name="AppComponent should create the app" time="0.004" classname="unit.AppComponent"/>
+  <testcase name="ArtistDetailsComponent should create" time="0.016" classname="unit.ArtistDetailsComponent"/>
+  <testcase name="AlbumCardComponent should create" time="0.004" classname="unit.AlbumCardComponent"/>
+  <testcase name="HomeComponent should create" time="0.006" classname="unit.HomeComponent"/>
+  <testcase name="ArtistCardComponent should create" time="0.008" classname="unit.ArtistCardComponent"/>
+  <testcase name="SearchComponent should create" time="0.005" classname="unit.SearchComponent"/>
+  <testcase name="TrackListComponent should create" time="0.003" classname="unit.TrackListComponent"/>
+  <system-out>
+    <![CDATA[Chrome Headless 98.0.4758.102 (Linux x86_64) ERROR: 'NG0304: 'app-search' is not a known element:
+1. If 'app-search' is an Angular component, then verify that it is part of this module.
+2. If 'app-search' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 98.0.4758.102 (Linux x86_64) ERROR: 'NG0304: 'app-search' is not a known element:
+1. If 'app-search' is an Angular component, then verify that it is part of this module.
+2. If 'app-search' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 98.0.4758.102 (Linux x86_64) ERROR: 'NG0304: 'app-track-list' is not a known element:
+1. If 'app-track-list' is an Angular component, then verify that it is part of this module.
+2. If 'app-track-list' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 98.0.4758.102 (Linux x86_64) ERROR: 'NG0304: 'app-album-card' is not a known element:
+1. If 'app-album-card' is an Angular component, then verify that it is part of this module.
+2. If 'app-album-card' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 98.0.4758.102 (Linux x86_64) ERROR: 'NG0304: 'app-album-card' is not a known element:
+1. If 'app-album-card' is an Angular component, then verify that it is part of this module.
+2. If 'app-album-card' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 98.0.4758.102 (Linux x86_64) ERROR: 'NG0304: 'app-album-card' is not a known element:
+1. If 'app-album-card' is an Angular component, then verify that it is part of this module.
+2. If 'app-album-card' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 98.0.4758.102 (Linux x86_64) ERROR: 'NG0304: 'mat-spinner' is not a known element:
+1. If 'mat-spinner' is an Angular component, then verify that it is part of this module.
+2. If 'mat-spinner' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 98.0.4758.102 (Linux x86_64) ERROR: 'NG0303: Can't bind to 'tracks' since it isn't a known property of 'app-track-list'.'
+,Chrome Headless 98.0.4758.102 (Linux x86_64) ERROR: 'NG0304: 'mat-spinner' is not a known element:
+1. If 'mat-spinner' is an Angular component, then verify that it is part of this module.
+2. If 'mat-spinner' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 98.0.4758.102 (Linux x86_64) ERROR: 'NG0303: Can't bind to 'formControl' since it isn't a known property of 'input'.'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

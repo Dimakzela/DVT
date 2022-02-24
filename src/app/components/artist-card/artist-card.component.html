@@ -1,0 +1,11 @@
+<div class="card" (click)="clickEmitter.emit(artist)">
+  <div class="image">
+    <img [hidden]="loading" height="100%" width="100%" src="{{artist?.picture}}" (load)="loading = false" alt="">
+    <mat-spinner color="accent" *ngIf="loading"></mat-spinner>
+  </div>
+  <article>
+    <h1>{{artist?.name}}</h1>
+    <span>{{artist?.nb_fan}} Fans</span>
+
+  </article>
+</div>

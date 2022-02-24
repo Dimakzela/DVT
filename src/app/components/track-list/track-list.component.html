@@ -1,0 +1,7 @@
+<div class="container">
+  <h1>Top tracks</h1>
+  <div *ngFor="let track of tracks; let i = index" class="track">
+    <span>{{i+1}}. {{  track.title}}</span>
+    <span>{{track.duration}}</span>
+  </div>
+</div>

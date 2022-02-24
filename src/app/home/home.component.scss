@@ -1,0 +1,25 @@
+.container {
+  @media (min-width: 480px){
+    padding: 30px 60px;
+    .artist-card-container {
+      display: flex;
+      align-content: center;
+      align-items: center;
+      background-color: whitesmoke;
+      overflow-x: auto;
+      margin-top: 30px;
+    }
+  }
+  @media (max-width: 480px){
+    padding: 15px;
+    .artist-card-container {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      background-color: whitesmoke;
+      overflow-y: auto;
+      margin: 15px;
+    }
+  }
+}
